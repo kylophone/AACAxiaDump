@@ -108,7 +108,7 @@ int main(int argc, const char *argv[]) {
     fprintf(stderr, "Unable to get the encoder info\n");
     return 1;
   }  
-  printf("%i\n", info.frameLength); //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  //printf("%i\n", info.frameLength);
 
   int sock = config_livewire_socket(lw_mc_addr(axiaChannel));
   if (sock == -1) {
